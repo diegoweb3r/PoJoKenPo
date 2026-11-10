@@ -1,16 +1,54 @@
-# React + Vite
+<h1 align="center"> Pojokenpo </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2 align="center"> 📖 Descrição   </h2>
+<p align="justify"> O <strong>Pojokenpo</strong> é uma jogo em aplicação web. Une o mundo de Pokemon com as regras do Jokenpo utilizando os tipos dos monstros da primeira geração para verificação de batalha. O jogo acontece em uma melhor de três
+</p>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+### 🛠 Tecnologias Utilizadas  
+- **Estruturação:** React com HTML5 Semântico para acessibilidade e SEO.
+- **Gerenciamento de estado:** React Hooks para controle de dados em tempo real e interatividade fluida
+- **Estilização:** CSS3 Moderno utilizando Metodologia Modular e Custom Properties (Variáveis CSS).
+- **Layout:** CSS Grid e Flexbox para responsividade intrínseca (sem dependência excessiva de Media Queries).
+- **Versionamento:** Git & GitHub para controle de fluxo e documentação.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### ⚙️ Funcionalidades  
+- [🔴] Website  
+- [🔴] Website responsivo
+- [🔴] Integração com PokeApi
+- [🔴] Modais e janelas de interação
+- [🔴] Sistema de cartas dinâmicas
+- [🔴] Distribuição aleatória de cartas
+- [🔴] Sistema de seleção de cartas
+- [🔴] Sistema de batalha
+- [🔴] Placar em tempo real
+- [🔴] Histórico de partidas
+- [🔴] Sistema de vitória, empate e derrota
+- [🔴] Animações e efeitos visuais
+- [🔴] Opção de reiniciar a partida
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 👤 Autor
+[Diego Felipe Weber](https://www.linkedin.com/in/diego-weber-474a5aa6/)   
+
+
+### 🗣️ Comentários
+<p align="justify">A união da vontade de estudar consumo de APIs, com o React, HTML, CSS e responsividade e o gosto por Pokemon, nasce um jogo de cartas baseado nas regras do tradicional JoKenPo.</p>
+
+---
+
+### 🤝 Contribuição
+Contribuições são sempre bem-vindas!   
+Se quiser colaborar:
+1. Faça um fork do projeto
+2. Crie uma nova branch com sua feature (git checkout -b minha-feature)
+3. Realize o commit das alterações (git commit -m 'Adicionei minha feature')
+4. Faça o push da branch (git push origin minha-feature)
+5. Abra um Pull Request
+
+
