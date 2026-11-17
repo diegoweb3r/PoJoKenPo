@@ -1,11 +1,13 @@
 import './App.css'
-import Teste from './components/teste'
+import { GameLayout } from './components/GameLayout'
+import { Header } from './components/header'
 
 function App() {
 
   return (
     <>
-      <Teste />
+      <Header />
+      <GameLayout />
     </>
   )
 }

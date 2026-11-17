@@ -1,0 +1,17 @@
+.game-layout {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 16px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: lightgray;
+}
+
+.game-container {
+   
+    background-color:bisque;
+}
+
+.history-container {
+    background-color:lightblue;
+}
