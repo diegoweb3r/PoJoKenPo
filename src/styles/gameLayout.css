@@ -3,15 +3,34 @@
     grid-template-columns: 1fr 250px;
     gap: 16px;
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - var(--header-height));
     background-color: lightgray;
 }
 
 .game-container {
-   
+    height: 100%;
     background-color:bisque;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 50px;
 }
 
 .history-container {
     background-color:lightblue;
+}
+
+.rival-hand{
+    background-color:lightgreen;
+}
+
+.game-board {
+    background-color:lightcoral;
+
+}
+
+.player-hand{ 
+    background-color:lightyellow;
+}
+
+.button-container{
+    background-color:lightpink;
 }

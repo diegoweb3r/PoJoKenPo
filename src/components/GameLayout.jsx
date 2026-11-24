@@ -5,6 +5,7 @@ export function GameLayout(){
                 <section className="rival-hand"></section>
                 <section className="game-board"></section>
                 <section className="player-hand"></section>
+                <section className="button-container"></section>
             </main>
             <aside className="history-container"></aside>
         </div>

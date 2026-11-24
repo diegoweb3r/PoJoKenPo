@@ -1,1 +1,14 @@
-
+:root{
+    --font-family: 'Press Start 2P', sans-serif;
+    --header-height: 60px;
+    --red-color: #DF2225;
+    --yellow-color: #FCCA21;
+    --blue-color: #1762B6;
+    --dark-blue-color: #175195;
+    --green-color: #bce5b3;
+}
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
