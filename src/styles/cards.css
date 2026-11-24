@@ -1,0 +1,8 @@
+.card{
+    width: 120px;
+    aspect-ratio: 3/4;
+    background: var(--card-background);
+    border-radius: var(--border-radius);
+    border: var(--card-border);
+    box-shadow: var(--card-shadow);
+}
