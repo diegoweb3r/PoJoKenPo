@@ -1,0 +1,34 @@
+.pokeball{
+    aspect-ratio: 1/1;
+    width: 50%;
+    border-radius: 50%;
+    background: var(--pokeball-background);
+    border: var(--pokeball-border);
+    position: relative;
+}
+
+/* Pokeball inner circle */
+.pokeball::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    border: var(--pokeball-border);
+}
+
+/* Pokeball horizontal line */
+.pokeball::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: var(--black-color);
+}

@@ -6,10 +6,14 @@
     --blue-color: #1762B6;
     --dark-blue-color: #175195;
     --green-color: #bce5b3;
+    --white-color: #fff;
+    --black-color: #000;
     --border-radius: 8px;
     --card-border: 2px solid #000;
-    --card-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    --card-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
     --card-background: repeating-linear-gradient(45deg, var(--blue-color), var(--blue-color) 10px, var(--dark-blue-color) 10px, var(--dark-blue-color) 20px);
+    --pokeball-background: linear-gradient(180deg, var(--red-color) 50%, var(--white-color) 50%);
+    --pokeball-border: 3px solid #000;
 }
 
 *{ 
